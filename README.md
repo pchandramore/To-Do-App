@@ -1,12 +1,29 @@
-# React + Vite
+# Advanced Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An **Advanced Todo App** built with **React**, **Vite**, **Bootstrap 5.3.7**, and **React Icons**.  
+This app allows you to **add, edit, delete, mark as completed**, filter, and search your todos. Todos are saved in **localStorage**, so your data persists across browser sessions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Add Todo** – Add new tasks with a single click.  
+- **Edit Todo** – Update existing todos via modal.  
+- **Delete Todo** – Remove tasks permanently.  
+- **Mark as Completed / Undo** – Toggle completed status.  
+- **Filter Todos** – View **All**, **Active**, or **Completed** tasks.  
+- **Search Todos** – Search tasks by text in real-time.  
+- **Timestamps** – Track **Created** and **Updated** dates.  
+- **LocalStorage** – Todos persist even after refreshing the page.  
+- **React Icons** – Modern, visually appealing buttons.  
+- **Responsive UI** – Fully responsive with **Bootstrap 5.3.7**.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/pchandramore/To-Do-App.git
+cd To-Do-App
